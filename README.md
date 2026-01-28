@@ -86,5 +86,45 @@ Below is the histogram comparison between real transformed data and GAN-generate
 
 <img width="900" height="552" alt="image" src="https://github.com/user-attachments/assets/36e59198-7532-4bb7-8723-a0b1e84adda3" />
 
+# 4. Observations
+
+# Mode Coverage
+
+ ```textThe generator captures the major modes of the transformed distribution.
+
+ Minor mode collapse may occur due to adversarial training dynamics.
+```
+<br>
+
+# Training Stability
+```text Training was stable after normalization.
+Generator and discriminator losses converged gradually, indicating balanced adversarial learning.
+```
+# Quality of Generated Distribution
+```text The GAN-generated PDF closely matches the real transformed data distribution.
+This demonstrates successful implicit learning of the unknown PDF.
+```
+# 5. Tools and Libraries
+```text
+Python
+PyTorch
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Scikit-learn
+```
+# 6. Conclusion
+``` text
+A nonlinear transformation was applied to NO2 concentration data using roll-number-based parameters.
+A GAN was trained to learn the unknown probability distribution without assuming any parametric form.
+Generated samples closely matched the real data distribution, verified using histogram and KDE plots.
+This experiment demonstrates the effectiveness of GANs in learning complex probability distributions directly from data.
+```
+<br>
+
+# Author
+SATYAM GUPTA
+ROLLNO-102303729
 
 
