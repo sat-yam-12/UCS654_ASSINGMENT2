@@ -78,7 +78,13 @@ The probability density function was estimated using:
 Histogram Density Estimation
 Kernel Density Estimation (KDE)
 ```
+<br>
 
+# Histogram and PDF Plot
+Below is the histogram comparison between real transformed data and GAN-generated samples.
+<br>
+
+<img width="900" height="552" alt="image" src="https://github.com/user-attachments/assets/36e59198-7532-4bb7-8723-a0b1e84adda3" />
 
 
 
